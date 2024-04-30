@@ -1,0 +1,92 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.one{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.one h1{
+
+    text-transform: capitalize;
+}
+
+.one button{
+
+    width: 200px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: aquamarine;
+    text-transform: capitalize;
+    font-size: 21px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.two{
+
+    width: 800px;
+    height: 190px;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.two #close{
+
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: red;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.two p{
+
+    width: 98%;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.two .btn{
+
+    width: 98%;
+    position: relative;
+}
+ 
+.btn .btn1{
+
+    width: 80px;
+    font-size: 15px;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+} 
